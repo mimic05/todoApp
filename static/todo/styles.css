@@ -1,0 +1,121 @@
+/* Dark theme styling */
+body {
+  background-color: #2e2e2e;
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1, label {
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Ensuring #one and #two have the same width */
+#one, #two {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #4e4e4e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#title, #description {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background-color: #6b6b6b;
+  color: #fff;
+}
+
+#title:focus, #description:focus {
+  background-color: #7b7b7b;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+th {
+  background-color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #4e4e4e;
+}
+
+tr:nth-child(odd) {
+  background-color: #3a3a3a;
+}
+
+/* Table row hover effect */
+tr:hover {
+  background-color: #6b6b6b;
+}
+
+/* Uniform button styles */
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+#label1 {
+  margin-right: 10px;
+  font-size: 18px;
+}
